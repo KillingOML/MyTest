@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "SS_DisplayLinkLabel.h"
 
 @interface AppDelegate ()
 

@@ -60,6 +60,7 @@
 		0388665D2192DBF60085CBE1 /* SS_DisplayLinkLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SS_DisplayLinkLabel.m; sourceTree = "<group>"; };
 		0388665F2192DC580085CBE1 /* SS_CPUInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS_CPUInfo.h; sourceTree = "<group>"; };
 		038866602192DC580085CBE1 /* SS_CPUInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SS_CPUInfo.m; sourceTree = "<group>"; };
+		038866622192EC800085CBE1 /* SS_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_PrefixHeader.pch; sourceTree = "<group>"; };
 		03984C3A2182BC2700997FCB /* ActionResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03984C3D2182BC2700997FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03984C3E2182BC2700997FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -185,6 +186,7 @@
 				0388662D2192BD120085CBE1 /* ViewB.m */,
 				038866292192BD110085CBE1 /* ViewC.h */,
 				0388662A2192BD110085CBE1 /* ViewC.m */,
+				038866622192EC800085CBE1 /* SS_PrefixHeader.pch */,
 				03984C432182BC2700997FCB /* Main.storyboard */,
 				03984C462182BC2A00997FCB /* Assets.xcassets */,
 				03984C482182BC2A00997FCB /* LaunchScreen.storyboard */,
@@ -569,8 +571,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC8Z6VK88N;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -604,8 +606,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

@@ -8,9 +8,9 @@
 
 #import "ViewA.h"
 #import "ViewB.h"
-#import "SS_UIConfigration.h"
-#import "EventType.h"
-#import "UIResponder+SS_Handler.h"
+//#import "SS_UIConfigration.h"
+//#import "EventType.h"
+//#import "UIResponder+SS_Handler.h"
 
 @implementation ViewA
 
