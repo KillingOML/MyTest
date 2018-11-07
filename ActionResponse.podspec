@@ -18,7 +18,6 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/KillingOML/FPSLabel.git", :tag => "0.0.1" }
 s.source_files = "ActionResponse/**/*{.h,.m}"
 s.prefix_header_contents = '#import "PrefixHeader.pch"'
- #s.prefix_header_file = 'ActionResponse/Classes/Global/LTSpeech-prefix.pch'
 
 
   s.dependency 'lottie-ios'
