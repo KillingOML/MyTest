@@ -1,13 +1,13 @@
 //
-//  PrefixHeader.pch
+//  SS_PrefixHeader.pch
 //  ActionResponse
 //
-//  Created by susong on 2018/10/26.
-//  Copyright © 2018年 susong. All rights reserved.
+//  Created by susong on 2018/11/7.
+//  Copyright © 2018 susong. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
+#ifndef SS_PrefixHeader_pch
+#define SS_PrefixHeader_pch
 
 #import "EventType.h"
 #import "UIResponder+Action.h"
@@ -16,5 +16,4 @@
 #import "SS_AppConfiguration.h"
 #import "SS_NSConfiguration.h"
 
-
-#endif /* PrefixHeader_pch */
+#endif /* SS_PrefixHeader_pch */

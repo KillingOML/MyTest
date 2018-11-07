@@ -45,7 +45,6 @@
 /* Begin PBXFileReference section */
 		0388661E2192BD0B0085CBE1 /* EventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
 		0388661F2192BD0B0085CBE1 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
-		038866202192BD0B0085CBE1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		038866212192BD0B0085CBE1 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
 		038866222192BD0B0085CBE1 /* CPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUInfo.h; sourceTree = "<group>"; };
 		038866232192BD0B0085CBE1 /* EventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventType.m; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		038866492192D89D0085CBE1 /* SS_NSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_NSConfiguration.h; sourceTree = "<group>"; };
 		0388664B2192D8C70085CBE1 /* UIResponder+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Action.h"; sourceTree = "<group>"; };
 		0388664C2192D8C70085CBE1 /* UIResponder+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Action.m"; sourceTree = "<group>"; };
+		0388664E2192DA450085CBE1 /* SS_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SS_PrefixHeader.pch; sourceTree = "<group>"; };
 		03984C3A2182BC2700997FCB /* ActionResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03984C3D2182BC2700997FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03984C3E2182BC2700997FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 				0388662D2192BD120085CBE1 /* ViewB.m */,
 				038866292192BD110085CBE1 /* ViewC.h */,
 				0388662A2192BD110085CBE1 /* ViewC.m */,
-				038866202192BD0B0085CBE1 /* PrefixHeader.pch */,
+				0388664E2192DA450085CBE1 /* SS_PrefixHeader.pch */,
 				03984C432182BC2700997FCB /* Main.storyboard */,
 				03984C462182BC2A00997FCB /* Assets.xcassets */,
 				03984C482182BC2A00997FCB /* LaunchScreen.storyboard */,
@@ -563,7 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC8Z6VK88N;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
-				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -597,7 +597,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
