@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AxcDrawPath_Tool.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-ActionResponse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
