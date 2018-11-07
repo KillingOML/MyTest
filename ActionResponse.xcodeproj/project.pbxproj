@@ -571,6 +571,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC8Z6VK88N;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -605,6 +606,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ActionResponse/SS_PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
