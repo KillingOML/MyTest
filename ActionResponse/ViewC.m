@@ -7,6 +7,9 @@
 //
 
 #import "ViewC.h"
+#import "EventType.h"
+#import "UIResponder+SS_Handler.h"
+
 
 @implementation ViewC
 

@@ -18,6 +18,7 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/KillingOML/FPSLabel.git", :tag => "0.0.4" }
 s.source_files = "ActionResponse/Class/**/*{.h,.m}"
 
+s.framework  = "Foundation"
 
 
 
