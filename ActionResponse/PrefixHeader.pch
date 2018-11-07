@@ -12,9 +12,9 @@
 #import "EventType.h"
 #import "UIResponder+Action.h"
 #import <Lottie/Lottie.h>
-//#import <AxcDrawPathTool.h>
+#import "SS_UIConfigration.h"
+#import "SS_AppConfiguration.h"
+#import "SS_NSConfiguration.h"
 
-#define SCREEN_WIDTH    [[[UIApplication sharedApplication] delegate] window].frame.size.width
-#define SCREEN_HEIGHT   [[[UIApplication sharedApplication] delegate] window].frame.size.height
 
 #endif /* PrefixHeader_pch */

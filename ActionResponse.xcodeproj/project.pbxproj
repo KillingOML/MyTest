@@ -13,7 +13,7 @@
 		0388662E2192BD120085CBE1 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866282192BD110085CBE1 /* ViewA.m */; };
 		0388662F2192BD120085CBE1 /* ViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388662A2192BD110085CBE1 /* ViewC.m */; };
 		038866302192BD120085CBE1 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388662D2192BD120085CBE1 /* ViewB.m */; };
-		038866332192BD1B0085CBE1 /* UIResponder+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866322192BD1B0085CBE1 /* UIResponder+Action.m */; };
+		0388664D2192D8C70085CBE1 /* UIResponder+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388664C2192D8C70085CBE1 /* UIResponder+Action.m */; };
 		03984C3F2182BC2700997FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C3E2182BC2700997FCB /* AppDelegate.m */; };
 		03984C422182BC2700997FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C412182BC2700997FCB /* ViewController.m */; };
 		03984C452182BC2700997FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03984C432182BC2700997FCB /* Main.storyboard */; };
@@ -56,8 +56,11 @@
 		0388662B2192BD120085CBE1 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
 		0388662C2192BD120085CBE1 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
 		0388662D2192BD120085CBE1 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
-		038866312192BD1B0085CBE1 /* UIResponder+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Action.h"; sourceTree = "<group>"; };
-		038866322192BD1B0085CBE1 /* UIResponder+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Action.m"; sourceTree = "<group>"; };
+		038866472192D89D0085CBE1 /* SS_UIConfigration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_UIConfigration.h; sourceTree = "<group>"; };
+		038866482192D89D0085CBE1 /* SS_AppConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_AppConfiguration.h; sourceTree = "<group>"; };
+		038866492192D89D0085CBE1 /* SS_NSConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SS_NSConfiguration.h; sourceTree = "<group>"; };
+		0388664B2192D8C70085CBE1 /* UIResponder+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Action.h"; sourceTree = "<group>"; };
+		0388664C2192D8C70085CBE1 /* UIResponder+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Action.m"; sourceTree = "<group>"; };
 		03984C3A2182BC2700997FCB /* ActionResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03984C3D2182BC2700997FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03984C3E2182BC2700997FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,23 +111,35 @@
 		0388661D2192BD010085CBE1 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				038866312192BD1B0085CBE1 /* UIResponder+Action.h */,
-				038866322192BD1B0085CBE1 /* UIResponder+Action.m */,
-				0388662C2192BD120085CBE1 /* ViewA.h */,
-				038866282192BD110085CBE1 /* ViewA.m */,
-				0388662B2192BD120085CBE1 /* ViewB.h */,
-				0388662D2192BD120085CBE1 /* ViewB.m */,
-				038866292192BD110085CBE1 /* ViewC.h */,
-				0388662A2192BD110085CBE1 /* ViewC.m */,
+				0388664A2192D8AA0085CBE1 /* Responder */,
+				038866462192D89D0085CBE1 /* Configration */,
 				038866222192BD0B0085CBE1 /* CPUInfo.h */,
 				038866242192BD0C0085CBE1 /* CPUInfo.m */,
 				0388661E2192BD0B0085CBE1 /* EventType.h */,
 				038866232192BD0B0085CBE1 /* EventType.m */,
 				038866212192BD0B0085CBE1 /* MyLabel.h */,
 				0388661F2192BD0B0085CBE1 /* MyLabel.m */,
-				038866202192BD0B0085CBE1 /* PrefixHeader.pch */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		038866462192D89D0085CBE1 /* Configration */ = {
+			isa = PBXGroup;
+			children = (
+				038866472192D89D0085CBE1 /* SS_UIConfigration.h */,
+				038866482192D89D0085CBE1 /* SS_AppConfiguration.h */,
+				038866492192D89D0085CBE1 /* SS_NSConfiguration.h */,
+			);
+			path = Configration;
+			sourceTree = "<group>";
+		};
+		0388664A2192D8AA0085CBE1 /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				0388664B2192D8C70085CBE1 /* UIResponder+Action.h */,
+				0388664C2192D8C70085CBE1 /* UIResponder+Action.m */,
+			);
+			path = Responder;
 			sourceTree = "<group>";
 		};
 		03984C312182BC2700997FCB = {
@@ -157,6 +172,13 @@
 				03984C3E2182BC2700997FCB /* AppDelegate.m */,
 				03984C402182BC2700997FCB /* ViewController.h */,
 				03984C412182BC2700997FCB /* ViewController.m */,
+				0388662C2192BD120085CBE1 /* ViewA.h */,
+				038866282192BD110085CBE1 /* ViewA.m */,
+				0388662B2192BD120085CBE1 /* ViewB.h */,
+				0388662D2192BD120085CBE1 /* ViewB.m */,
+				038866292192BD110085CBE1 /* ViewC.h */,
+				0388662A2192BD110085CBE1 /* ViewC.m */,
+				038866202192BD0B0085CBE1 /* PrefixHeader.pch */,
 				03984C432182BC2700997FCB /* Main.storyboard */,
 				03984C462182BC2A00997FCB /* Assets.xcassets */,
 				03984C482182BC2A00997FCB /* LaunchScreen.storyboard */,
@@ -361,7 +383,7 @@
 				03984C422182BC2700997FCB /* ViewController.m in Sources */,
 				0388662E2192BD120085CBE1 /* ViewA.m in Sources */,
 				03984C4D2182BC2A00997FCB /* main.m in Sources */,
-				038866332192BD1B0085CBE1 /* UIResponder+Action.m in Sources */,
+				0388664D2192D8C70085CBE1 /* UIResponder+Action.m in Sources */,
 				038866272192BD0C0085CBE1 /* CPUInfo.m in Sources */,
 				038866252192BD0C0085CBE1 /* MyLabel.m in Sources */,
 				038866302192BD120085CBE1 /* ViewB.m in Sources */,
@@ -541,7 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC8Z6VK88N;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
-				GCC_PREFIX_HEADER = ActionResponse/Class/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -575,7 +597,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = ActionResponse/Class/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

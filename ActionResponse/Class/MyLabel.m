@@ -23,13 +23,6 @@
 @implementation MyLabel
 
 
-//- (void)dealloc
-//{
-//    [_displayLink invalidate];
-//    _displayLink = nil;
-//}
-//
-
 static MyLabel *_sharedFPSLabel = nil;
 + (instancetype)sharedInstance{
     static dispatch_once_t onceToken;

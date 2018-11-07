@@ -46,7 +46,7 @@
     }
     vm_deallocate(mach_task_self(), (vm_offset_t)thread_list, thread_count * sizeof(thread_t));
 
-    NSLog(@"%.1f",tot_cpu);
+//    NSLog(@"%.1f",tot_cpu);
     
 
     return tot_cpu;
