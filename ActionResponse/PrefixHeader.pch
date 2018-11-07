@@ -12,7 +12,7 @@
 #import "EventType.h"
 #import "UIResponder+Action.h"
 #import <Lottie/Lottie.h>
-#import <AxcDrawPathTool.h>
+//#import <AxcDrawPathTool.h>
 
 #define SCREEN_WIDTH    [[[UIApplication sharedApplication] delegate] window].frame.size.width
 #define SCREEN_HEIGHT   [[[UIApplication sharedApplication] delegate] window].frame.size.height

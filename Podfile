@@ -7,7 +7,7 @@ target 'ActionResponse' do
 #pod 'JazzHands'
 pod 'Reveal-SDK', :configurations => ['Debug']
 pod 'lottie-ios'
-pod 'AxcDrawPath_Tool'
+#pod 'AxcDrawPath_Tool'
 
 end
 	
