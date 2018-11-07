@@ -12,11 +12,13 @@ s.description  = <<-DESC
                    我是说明我是说明我是说明我是说明我是说明我是说明
 			                   DESC
 
-  s.license      = "MIT"
+s.license      = "MIT"
 s.author       = { "KillingOML" => "908070962@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/KillingOML/FPSLabel.git", :tag => "0.0.1" }
-s.source_files = "ActionResponse/**/*"
+s.source_files = "ActionResponse/**/*{.h,.m}"
+s.prefix_header_file="ActionResponse/**/PrefixHeader.pch"
+
   s.dependency 'lottie-ios'
 
 end
