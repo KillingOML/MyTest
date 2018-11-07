@@ -1,20 +1,20 @@
 //
-//  UIResponder+Action.h
+//  UIResponder+SS_Handler.h
 //  ActionResponse
 //
-//  Created by susong on 2018/10/26.
-//  Copyright © 2018年 susong. All rights reserved.
+//  Created by susong on 2018/11/7.
+//  Copyright © 2018 susong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol ActionResponse <NSObject>
+@protocol HandlerResponse <NSObject>
 
 /**
  响应事件回调
-
+ 
  @param type 事件类型
  @param sender 数据源
  @return 响应者链是否继续传递 YES：继续传递 ； NO：break掉
@@ -23,11 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface UIResponder (Action)
+@interface UIResponder (SS_Handler)
 
 /**
  抛出 事件类型&&数据源
-
+ 
  @param type 事件类型
  @param sender 数据源
  */

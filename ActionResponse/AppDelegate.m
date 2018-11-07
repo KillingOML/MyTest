@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MyLabel.h"
+#import "SS_DisplayLinkLabel.h"
 
 @interface AppDelegate ()
 
@@ -18,10 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[MyLabel sharedInstance] begin];
+
     
    
-    [[MyLabel sharedInstance] begin];
+    [[SS_DisplayLinkLabel sharedInstance] begin];
 
 //    [self jumpINTO];
     // 打开Reveal
@@ -32,10 +32,10 @@
 
 - (void)jumpINTO{
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if ([MyLabel sharedInstance].superview) {
-            [[MyLabel sharedInstance] stop];
+        if ([SS_DisplayLinkLabel sharedInstance].superview) {
+            [[SS_DisplayLinkLabel sharedInstance] stop];
         }else{
-            [[MyLabel sharedInstance] begin];
+            [[SS_DisplayLinkLabel sharedInstance] begin];
         }
         [self jumpINTO];
     });

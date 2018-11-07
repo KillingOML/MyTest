@@ -1,16 +1,16 @@
 //
-//  CPUInfo.m
+//  SS_CPUInfo.m
 //  ActionResponse
 //
-//  Created by susong on 2018/11/6.
+//  Created by susong on 2018/11/7.
 //  Copyright © 2018 susong. All rights reserved.
 //
 
-#import "CPUInfo.h"
+#import "SS_CPUInfo.h"
 #import <mach/mach.h>
 #import <assert.h>
 
-@implementation CPUInfo
+@implementation SS_CPUInfo
 
 - (float)appCPUUsage{
     kern_return_t kr;
@@ -45,10 +45,10 @@
         }
     }
     vm_deallocate(mach_task_self(), (vm_offset_t)thread_list, thread_count * sizeof(thread_t));
-
-//    NSLog(@"%.1f",tot_cpu);
     
-
+    //    NSLog(@"%.1f",tot_cpu);
+    
+    
     return tot_cpu;
     
 }

@@ -1,8 +1,8 @@
 //
-//  CPUInfo.h
+//  SS_CPUInfo.h
 //  ActionResponse
 //
-//  Created by susong on 2018/11/6.
+//  Created by susong on 2018/11/7.
 //  Copyright © 2018 susong. All rights reserved.
 //
 
@@ -10,11 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CPUInfo : NSObject
-
+@interface SS_CPUInfo : NSObject
 
 - (float)appCPUUsage;
-
 
 @end
 

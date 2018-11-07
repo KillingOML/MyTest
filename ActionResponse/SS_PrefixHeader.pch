@@ -10,8 +10,7 @@
 #define SS_PrefixHeader_pch
 
 #import "EventType.h"
-#import "UIResponder+Action.h"
-#import <Lottie/Lottie.h>
+#import "UIResponder+SS_Handler.h"
 #import "SS_UIConfigration.h"
 #import "SS_AppConfiguration.h"
 #import "SS_NSConfiguration.h"

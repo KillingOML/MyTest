@@ -1,16 +1,17 @@
 //
-//  MyLabel.h
+//  SS_DisplayLinkLabel.h
 //  ActionResponse
 //
-//  Created by susong on 2018/11/2.
-//  Copyright © 2018年 susong. All rights reserved.
+//  Created by susong on 2018/11/7.
+//  Copyright © 2018 susong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MyLabel : UILabel
+@interface SS_DisplayLinkLabel : UILabel
+
 /**
  单例
  
