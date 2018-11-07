@@ -16,7 +16,7 @@ s.description  = <<-DESC
 s.author       = { "KillingOML" => "908070962@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/KillingOML/FPSLabel.git", :tag => "0.0.1" }
-s.source_files = "ActionResponse/**/*.{h,m}, ActionResponse/**/PrefixHeader.pch"
+s.source_files = "ActionResponse/**/*"
   s.dependency 'lottie-ios'
 
 end
