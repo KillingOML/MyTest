@@ -20,7 +20,6 @@ s.source_files = "ActionResponse/Class/**/*{.h,.m}"
 s.prefix_header_file = 'ActionResponse/SS_PrefixHeader.pch'
 
 
-s.dependency 'lottie-ios'
 
 end
 
