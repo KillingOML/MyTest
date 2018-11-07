@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0313B6582191B50B00E3050E /* CPUInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0313B6572191B50B00E3050E /* CPUInfo.m */; };
+		038866252192BD0C0085CBE1 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388661F2192BD0B0085CBE1 /* MyLabel.m */; };
+		038866262192BD0C0085CBE1 /* EventType.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866232192BD0B0085CBE1 /* EventType.m */; };
+		038866272192BD0C0085CBE1 /* CPUInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866242192BD0C0085CBE1 /* CPUInfo.m */; };
+		0388662E2192BD120085CBE1 /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866282192BD110085CBE1 /* ViewA.m */; };
+		0388662F2192BD120085CBE1 /* ViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388662A2192BD110085CBE1 /* ViewC.m */; };
+		038866302192BD120085CBE1 /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0388662D2192BD120085CBE1 /* ViewB.m */; };
+		038866332192BD1B0085CBE1 /* UIResponder+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 038866322192BD1B0085CBE1 /* UIResponder+Action.m */; };
 		03984C3F2182BC2700997FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C3E2182BC2700997FCB /* AppDelegate.m */; };
 		03984C422182BC2700997FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C412182BC2700997FCB /* ViewController.m */; };
 		03984C452182BC2700997FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03984C432182BC2700997FCB /* Main.storyboard */; };
@@ -16,12 +22,6 @@
 		03984C4D2182BC2A00997FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C4C2182BC2A00997FCB /* main.m */; };
 		03984C572182BC2A00997FCB /* ActionResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C562182BC2A00997FCB /* ActionResponseTests.m */; };
 		03984C622182BC2B00997FCB /* ActionResponseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C612182BC2B00997FCB /* ActionResponseUITests.m */; };
-		03984C712182BFCF00997FCB /* UIResponder+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C702182BFCF00997FCB /* UIResponder+Action.m */; };
-		03984C782182C16100997FCB /* ViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C772182C16100997FCB /* ViewA.m */; };
-		03984C7B2182C16800997FCB /* ViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C7A2182C16800997FCB /* ViewB.m */; };
-		03984C7E2182C16F00997FCB /* ViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C7D2182C16F00997FCB /* ViewC.m */; };
-		03984C822182C1B800997FCB /* EventType.m in Sources */ = {isa = PBXBuildFile; fileRef = 03984C812182C1B800997FCB /* EventType.m */; };
-		03D77AEE218BF0A200255F2D /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D77AED218BF0A200255F2D /* MyLabel.m */; };
 		B226B2ACD23D8D5CB9392129 /* libPods-ActionResponse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBEFCE5C6165407D9E11EA9 /* libPods-ActionResponse.a */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0313B6562191B50B00E3050E /* CPUInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUInfo.h; sourceTree = "<group>"; };
-		0313B6572191B50B00E3050E /* CPUInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUInfo.m; sourceTree = "<group>"; };
+		0388661E2192BD0B0085CBE1 /* EventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
+		0388661F2192BD0B0085CBE1 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		038866202192BD0B0085CBE1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		038866212192BD0B0085CBE1 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		038866222192BD0B0085CBE1 /* CPUInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUInfo.h; sourceTree = "<group>"; };
+		038866232192BD0B0085CBE1 /* EventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventType.m; sourceTree = "<group>"; };
+		038866242192BD0C0085CBE1 /* CPUInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUInfo.m; sourceTree = "<group>"; };
+		038866282192BD110085CBE1 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
+		038866292192BD110085CBE1 /* ViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewC.h; sourceTree = "<group>"; };
+		0388662A2192BD110085CBE1 /* ViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewC.m; sourceTree = "<group>"; };
+		0388662B2192BD120085CBE1 /* ViewB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
+		0388662C2192BD120085CBE1 /* ViewA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
+		0388662D2192BD120085CBE1 /* ViewB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
+		038866312192BD1B0085CBE1 /* UIResponder+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Action.h"; sourceTree = "<group>"; };
+		038866322192BD1B0085CBE1 /* UIResponder+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Action.m"; sourceTree = "<group>"; };
 		03984C3A2182BC2700997FCB /* ActionResponse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionResponse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03984C3D2182BC2700997FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03984C3E2182BC2700997FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,19 +74,6 @@
 		03984C5D2182BC2B00997FCB /* ActionResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03984C612182BC2B00997FCB /* ActionResponseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionResponseUITests.m; sourceTree = "<group>"; };
 		03984C632182BC2B00997FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03984C6F2182BFCF00997FCB /* UIResponder+Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Action.h"; sourceTree = "<group>"; };
-		03984C702182BFCF00997FCB /* UIResponder+Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Action.m"; sourceTree = "<group>"; };
-		03984C752182C06500997FCB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		03984C762182C16100997FCB /* ViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewA.h; sourceTree = "<group>"; };
-		03984C772182C16100997FCB /* ViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
-		03984C792182C16800997FCB /* ViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewB.h; sourceTree = "<group>"; };
-		03984C7A2182C16800997FCB /* ViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewB.m; sourceTree = "<group>"; };
-		03984C7C2182C16F00997FCB /* ViewC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewC.h; sourceTree = "<group>"; };
-		03984C7D2182C16F00997FCB /* ViewC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewC.m; sourceTree = "<group>"; };
-		03984C802182C1B800997FCB /* EventType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
-		03984C812182C1B800997FCB /* EventType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventType.m; sourceTree = "<group>"; };
-		03D77AEC218BF0A200255F2D /* MyLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
-		03D77AED218BF0A200255F2D /* MyLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
 		38DB8ABB9425B519489CB495 /* Pods-ActionResponse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionResponse.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActionResponse/Pods-ActionResponse.release.xcconfig"; sourceTree = "<group>"; };
 		3BBEFCE5C6165407D9E11EA9 /* libPods-ActionResponse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ActionResponse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5904ACC7027E81F5FA5C58 /* Pods-ActionResponse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionResponse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActionResponse/Pods-ActionResponse.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +105,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0388661D2192BD010085CBE1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				038866312192BD1B0085CBE1 /* UIResponder+Action.h */,
+				038866322192BD1B0085CBE1 /* UIResponder+Action.m */,
+				0388662C2192BD120085CBE1 /* ViewA.h */,
+				038866282192BD110085CBE1 /* ViewA.m */,
+				0388662B2192BD120085CBE1 /* ViewB.h */,
+				0388662D2192BD120085CBE1 /* ViewB.m */,
+				038866292192BD110085CBE1 /* ViewC.h */,
+				0388662A2192BD110085CBE1 /* ViewC.m */,
+				038866222192BD0B0085CBE1 /* CPUInfo.h */,
+				038866242192BD0C0085CBE1 /* CPUInfo.m */,
+				0388661E2192BD0B0085CBE1 /* EventType.h */,
+				038866232192BD0B0085CBE1 /* EventType.m */,
+				038866212192BD0B0085CBE1 /* MyLabel.h */,
+				0388661F2192BD0B0085CBE1 /* MyLabel.m */,
+				038866202192BD0B0085CBE1 /* PrefixHeader.pch */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		03984C312182BC2700997FCB = {
 			isa = PBXGroup;
 			children = (
@@ -130,29 +152,16 @@
 		03984C3C2182BC2700997FCB /* ActionResponse */ = {
 			isa = PBXGroup;
 			children = (
-				03984C7F2182C18800997FCB /* Responder */,
+				0388661D2192BD010085CBE1 /* Class */,
 				03984C3D2182BC2700997FCB /* AppDelegate.h */,
 				03984C3E2182BC2700997FCB /* AppDelegate.m */,
 				03984C402182BC2700997FCB /* ViewController.h */,
 				03984C412182BC2700997FCB /* ViewController.m */,
-				03D77AEC218BF0A200255F2D /* MyLabel.h */,
-				03D77AED218BF0A200255F2D /* MyLabel.m */,
-				0313B6562191B50B00E3050E /* CPUInfo.h */,
-				0313B6572191B50B00E3050E /* CPUInfo.m */,
-				03984C762182C16100997FCB /* ViewA.h */,
-				03984C772182C16100997FCB /* ViewA.m */,
-				03984C792182C16800997FCB /* ViewB.h */,
-				03984C7A2182C16800997FCB /* ViewB.m */,
-				03984C7C2182C16F00997FCB /* ViewC.h */,
-				03984C7D2182C16F00997FCB /* ViewC.m */,
-				03984C802182C1B800997FCB /* EventType.h */,
-				03984C812182C1B800997FCB /* EventType.m */,
 				03984C432182BC2700997FCB /* Main.storyboard */,
 				03984C462182BC2A00997FCB /* Assets.xcassets */,
 				03984C482182BC2A00997FCB /* LaunchScreen.storyboard */,
 				03984C4B2182BC2A00997FCB /* Info.plist */,
 				03984C4C2182BC2A00997FCB /* main.m */,
-				03984C752182C06500997FCB /* PrefixHeader.pch */,
 			);
 			path = ActionResponse;
 			sourceTree = "<group>";
@@ -173,15 +182,6 @@
 				03984C632182BC2B00997FCB /* Info.plist */,
 			);
 			path = ActionResponseUITests;
-			sourceTree = "<group>";
-		};
-		03984C7F2182C18800997FCB /* Responder */ = {
-			isa = PBXGroup;
-			children = (
-				03984C6F2182BFCF00997FCB /* UIResponder+Action.h */,
-				03984C702182BFCF00997FCB /* UIResponder+Action.m */,
-			);
-			path = Responder;
 			sourceTree = "<group>";
 		};
 		7907C4C0F14336E51F987D75 /* Pods */ = {
@@ -357,16 +357,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D77AEE218BF0A200255F2D /* MyLabel.m in Sources */,
-				03984C7E2182C16F00997FCB /* ViewC.m in Sources */,
-				03984C782182C16100997FCB /* ViewA.m in Sources */,
-				03984C822182C1B800997FCB /* EventType.m in Sources */,
-				0313B6582191B50B00E3050E /* CPUInfo.m in Sources */,
-				03984C712182BFCF00997FCB /* UIResponder+Action.m in Sources */,
+				0388662F2192BD120085CBE1 /* ViewC.m in Sources */,
 				03984C422182BC2700997FCB /* ViewController.m in Sources */,
+				0388662E2192BD120085CBE1 /* ViewA.m in Sources */,
 				03984C4D2182BC2A00997FCB /* main.m in Sources */,
+				038866332192BD1B0085CBE1 /* UIResponder+Action.m in Sources */,
+				038866272192BD0C0085CBE1 /* CPUInfo.m in Sources */,
+				038866252192BD0C0085CBE1 /* MyLabel.m in Sources */,
+				038866302192BD120085CBE1 /* ViewB.m in Sources */,
+				038866262192BD0C0085CBE1 /* EventType.m in Sources */,
 				03984C3F2182BC2700997FCB /* AppDelegate.m in Sources */,
-				03984C7B2182C16800997FCB /* ViewB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,7 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QC8Z6VK88N;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
-				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/Class/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -575,7 +575,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = ActionResponse/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ActionResponse/Class/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
