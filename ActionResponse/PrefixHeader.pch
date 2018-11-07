@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  ActionResponse
+//
+//  Created by susong on 2018/10/26.
+//  Copyright © 2018年 susong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "EventType.h"
+#import "UIResponder+Action.h"
+#import <Lottie/Lottie.h>
+#import <AxcDrawPathTool.h>
+
+#define SCREEN_WIDTH    [[[UIApplication sharedApplication] delegate] window].frame.size.width
+#define SCREEN_HEIGHT   [[[UIApplication sharedApplication] delegate] window].frame.size.height
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,24 @@
+PODS:
+  - AxcDrawPath_Tool (1.0.1)
+  - lottie-ios (2.5.2)
+  - Reveal-SDK (19)
+
+DEPENDENCIES:
+  - AxcDrawPath_Tool
+  - lottie-ios
+  - Reveal-SDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AxcDrawPath_Tool
+    - lottie-ios
+    - Reveal-SDK
+
+SPEC CHECKSUMS:
+  AxcDrawPath_Tool: 979de77fdeb741909897c6cad95867ad39f5613b
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  Reveal-SDK: 9f0d2c6c12eb7507921e5454ac165b7aa21140a4
+
+PODFILE CHECKSUM: 1388be730840a94e4905c3b2307664a7da16470c
+
+COCOAPODS: 1.5.3
