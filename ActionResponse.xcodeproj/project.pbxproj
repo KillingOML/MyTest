@@ -43,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034B1FA921B108E800E8FF23 /* ActionResponeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionResponeHeader.h; sourceTree = "<group>"; };
 		0388661E2192BD0B0085CBE1 /* EventType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventType.h; sourceTree = "<group>"; };
 		038866232192BD0B0085CBE1 /* EventType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventType.m; sourceTree = "<group>"; };
 		038866282192BD110085CBE1 /* ViewA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewA.m; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				038866472192D89D0085CBE1 /* SS_UIConfigration.h */,
 				038866482192D89D0085CBE1 /* SS_AppConfiguration.h */,
 				038866492192D89D0085CBE1 /* SS_NSConfiguration.h */,
+				034B1FA921B108E800E8FF23 /* ActionResponeHeader.h */,
 			);
 			path = Configration;
 			sourceTree = "<group>";
